@@ -35,38 +35,38 @@ enum OPERATOR {
 
 enum STATUSCOLOR {
   // ITEM
-  ITEM_APPROVED = "success",
-  ITEM_CANCELLED = "danger",
   ITEM_CREATED = "medium",
-  ITEM_COMPLETED = "success",
+  ITEM_APPROVED = "primary",
   ITEM_PENDING_FULFILL = "warning",
   ITEM_PENDING_RECEIPT = "warning",
-  ITEM_REJECTED = "danger",
   ITEM_REQ_CANCELATN = "warning",
+  ITEM_REJECTED = "danger",
+  ITEM_CANCELLED = "danger",
+  ITEM_COMPLETED = "success",
 
   // PAYMENT
   PAYMENT_AUTHORIZED = "medium",
-  PAYMENT_CANCELLED = "danger",
-  PAYMENT_DECLINED = "danger",
   PAYMENT_NOT_AUTH = "warning",
   PAYMENT_NOT_RECEIVED = "warning",
+  PAYMENT_CANCELLED = "danger",
+  PAYMENT_DECLINED = "danger",
   PAYMENT_RECEIVED = "success",
   PAYMENT_REFUNDED = "success",
   PAYMENT_SETTLED = "success",
 
   // ORDER
-  ORDER_APPROVED = "success",
-  ORDER_CANCELLED = "danger",
-  ORDER_COMPLETED = "success",
   ORDER_CREATED = "medium",
+  ORDER_APPROVED = "primary",
   ORDER_HOLD = "warning",
+  ORDER_CANCELLED = "danger",
   ORDER_REJECTED = "danger",
+  ORDER_COMPLETED = "success",
 
   // SHIPMENT
-  SHIPMENT_APPROVED = "success",
-  SHIPMENT_CANCELLED = "danger",
   SHIPMENT_INPUT = "medium",
-  SHIPMENT_PACKED = "success",
+  SHIPMENT_APPROVED = "primary",
+  SHIPMENT_PACKED = "secondary",
+  SHIPMENT_CANCELLED = "danger",
   SHIPMENT_SHIPPED = "success",
 }
 
